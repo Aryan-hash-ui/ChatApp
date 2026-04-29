@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+.midsection
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.first
+{
+    width: 95%;
+    height: 490px;
+    overflow: auto;
+    background: url(./backgroung.jpg);
+
+}
+.second{
+    margin-bottom: 50px;
+}
+.first::-webkit-scrollbar
+{
+    display:none;
+}
+.left,.right,.center
+{
+    width:60%;
+    clear:both;
+
+}
+
+.right
+{
+    float:right;
+
+}
+.center
+{
+margin:auto;
+margin-bottom: 10px;
+text-align: center;
+}
