@@ -1,4 +1,4 @@
-let socket= io("http://localhost:8000")
+let socket= io("https://chatapp-0z4o.onrender.com")
 var name=prompt("Enter User Name to Join ChatApp:")
 socket.emit("join",name)
 
