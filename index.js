@@ -2,8 +2,9 @@
 //Cross-origin resource sharing (CORS) is a browser mechanism which enables controlled access to resources located outside of a given domain. CORS will allow more than one app running on different ports 
 
 const io = require("socket.io")(8000, {
-    cors: "http://127.0.0.1:5500"
-    // cors:"*"
+    cors: {
+        origin: "https://chat-app-alpha-flax.vercel.app/"
+    }
 })
 let users = {}
 // //Built-in keywords events etc.- connection,discoonect
