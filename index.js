@@ -2,7 +2,7 @@
 //Cross-origin resource sharing (CORS) is a browser mechanism which enables controlled access to resources located outside of a given domain. CORS will allow more than one app running on different ports 
 
 const io = require("socket.io")(8000, {
-    cors: "https://chatapp-0z4o.onrender.com"
+    cors: "https://chatapp-l6ad.onrender.com"
     // cors:"*"
 })
 let users = {}
